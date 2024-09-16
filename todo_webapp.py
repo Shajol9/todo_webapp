@@ -11,7 +11,11 @@ def add_todo():
     st.session_state["new_todo"] = ""
 
 st.title("My TO-DO App")
-st.subheader("This is my first webapp")
+st.subheader("This is a simple Todo app.")
+st.write('''You can add a new todo by typing it in the text box and 
+         then hitting enter.\nYou can also marke a todo as completed 
+         by clikcing the coresponding checkbox and the todo will be 
+         deleted.''')
 
 for index, todo in enumerate(todo_list):
     checkbox = st.checkbox(todo, key=todo)
