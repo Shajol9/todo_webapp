@@ -3,4 +3,5 @@ resolve the underline bug issue with the gui app.
 go to sleep in 10 minutes.
 write the research proposal
 learn embedded c
-deploy in the cloud 
+clean the basin 
+dump trash 
